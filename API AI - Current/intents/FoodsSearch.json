@@ -1,0 +1,88 @@
+{
+  "id": "e1420b7a-4e63-4c49-822c-bfa82d754f93",
+  "name": "FoodsSearch",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "e5adddb4-b6fe-4f2b-aa05-c4529b6296bc",
+      "data": [
+        {
+          "text": "gluten free",
+          "alias": "foodtype",
+          "meta": "@foodtype",
+          "userDefined": true
+        },
+        {
+          "text": "Mimice",
+          "alias": "City",
+          "meta": "@City",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8c7bd11-02bf-47da-8662-e73d1d7d9f75",
+      "data": [
+        {
+          "text": "vegan",
+          "alias": "foodtype",
+          "meta": "@foodtype",
+          "userDefined": true
+        },
+        {
+          "text": "copenhagen",
+          "alias": "City",
+          "meta": "@City",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e78fddb8-399b-4f12-9fc7-0bc7bcc0e586",
+      "data": [
+        {
+          "text": "@foodtype:foodtype  @City:City"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getfood",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@City",
+          "name": "City",
+          "value": "$City",
+          "prompts": [
+            "Please enter a city!"
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@foodtype",
+          "name": "foodtype",
+          "value": "$foodtype",
+          "prompts": [
+            "Please enter a foodtype!"
+          ]
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "state": "LEARNED",
+  "priority": 500000,
+  "webhookUsed": true,
+  "fallbackIntent": false
+}

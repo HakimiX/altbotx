@@ -1,0 +1,121 @@
+{
+  "id": "2824b1ba-18f1-468e-820b-ef1c86c2f593",
+  "name": "foodtype",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Dairy Free",
+      "synonyms": [
+        "Dairy free",
+        "dairy free",
+        "Lactose free",
+        "lactose free",
+        "Laktose-free",
+        "laktose-free",
+        "Lactose-free",
+        "lactose-free",
+        "Laktosefri",
+        "laktosefri",
+        "without milk",
+        "without cheese",
+        "without butter",
+        "without cream",
+        "without sour cream"
+      ]
+    },
+    {
+      "value": "Low Carb",
+      "synonyms": [
+        "Low Carb"
+      ]
+    },
+    {
+      "value": "Plant Based",
+      "synonyms": [
+        "plant Based",
+        "cruelty free",
+        "vegan",
+        "Vegan"
+      ]
+    },
+    {
+      "value": "Sugar Free",
+      "synonyms": [
+        "Sugar Free"
+      ]
+    },
+    {
+      "value": "Vegetarian",
+      "synonyms": [
+        "Vegetarian",
+        "vegeterian",
+        "without meat",
+        "without fish",
+        "Veggie",
+        "veggie"
+      ]
+    },
+    {
+      "value": "Nut Free",
+      "synonyms": [
+        "Nut Free"
+      ]
+    },
+    {
+      "value": "Gluten Free",
+      "synonyms": [
+        "Gluten Free",
+        "Celiac",
+        "celiac",
+        "Celiac disease",
+        "celiac disease",
+        "Glutenfri",
+        "glutenfri",
+        "without pasta",
+        "without bread"
+      ]
+    },
+    {
+      "value": "High Protein",
+      "synonyms": [
+        "High Protein",
+        "high protein",
+        "lots of protein"
+      ]
+    },
+    {
+      "value": "Low Carb",
+      "synonyms": [
+        "Low Carb",
+        "low carb",
+        "low carbohydrate",
+        "low gi",
+        "low glycemic index",
+        "low glycemic load",
+        "low gl",
+        "sugar free"
+      ]
+    },
+    {
+      "value": "Paleo",
+      "synonyms": [
+        "Paleo",
+        "paleo",
+        "Paleolithic diet",
+        "paleolithic",
+        "Raw",
+        "raw",
+        "caveman",
+        "stone-age"
+      ]
+    },
+    {
+      "value": "High Protein",
+      "synonyms": [
+        "High Protein"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

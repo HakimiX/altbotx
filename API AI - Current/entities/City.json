@@ -1,0 +1,54 @@
+{
+  "id": "09b16efa-fb53-4356-9088-5106fbe838b0",
+  "name": "City",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Copenhagen",
+      "synonyms": [
+        "Copenhagen",
+        "copenhagen",
+        "copen",
+        "hagen"
+      ]
+    },
+    {
+      "value": "Aalborg",
+      "synonyms": [
+        "Aalborg"
+      ]
+    },
+    {
+      "value": "Mimice",
+      "synonyms": [
+        "Mimice"
+      ]
+    },
+    {
+      "value": "Dunakeszi",
+      "synonyms": [
+        "Dunakeszi"
+      ]
+    },
+    {
+      "value": "Aarhus",
+      "synonyms": [
+        "Aarhus"
+      ]
+    },
+    {
+      "value": "København",
+      "synonyms": [
+        "København"
+      ]
+    },
+    {
+      "value": "Budapest",
+      "synonyms": [
+        "Budapest"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "8db31cd4-8291-4394-9133-108aa3b3e44e",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "userSays": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "speech": "Please enter a foodtype and a city!"
+    }
+  ],
+  "state": "LEARNING",
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": true
+}
